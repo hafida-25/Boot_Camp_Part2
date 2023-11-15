@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-13T02:23:24 CST" name="Suite" finished-at="2023-11-13T02:24:02 CST" duration-ms="37912">
+    <groups>
+    </groups>
+    <test started-at="2023-11-13T02:23:24 CST" name="Test" finished-at="2023-11-13T02:24:02 CST" duration-ms="37912">
+      <class name="TestsCases.LoginTest">
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:TestsCases.LoginTest@76b1e9b8]" started-at="2023-11-13T02:23:24 CST" name="launchURL" finished-at="2023-11-13T02:23:30 CST" duration-ms="5452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyLoginWithValidCredentials()[pri:1, instance:TestsCases.LoginTest@76b1e9b8]" started-at="2023-11-13T02:23:30 CST" name="verifyLoginWithValidCredentials" finished-at="2023-11-13T02:23:31 CST" duration-ms="1148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestsCases.LoginTest@76b1e9b8]" started-at="2023-11-13T02:23:31 CST" name="tearDown" finished-at="2023-11-13T02:23:31 CST" duration-ms="148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestsCases.LoginTest -->
+      <class name="TestsCases.SearchTest">
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:TestsCases.SearchTest@2cb4893b]" started-at="2023-11-13T02:23:43 CST" name="launchURL" finished-at="2023-11-13T02:23:46 CST" duration-ms="3599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="searchProductTest()[pri:1, instance:TestsCases.SearchTest@2cb4893b]" started-at="2023-11-13T02:23:46 CST" name="searchProductTest" finished-at="2023-11-13T02:23:47 CST" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestsCases.SearchTest@2cb4893b]" started-at="2023-11-13T02:23:47 CST" name="tearDown" finished-at="2023-11-13T02:23:47 CST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:TestsCases.SearchTest@2cb4893b]" started-at="2023-11-13T02:23:47 CST" name="launchURL" finished-at="2023-11-13T02:23:54 CST" duration-ms="6404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifySearchWithInvalidProduct()[pri:2, instance:TestsCases.SearchTest@2cb4893b]" started-at="2023-11-13T02:23:54 CST" name="verifySearchWithInvalidProduct" finished-at="2023-11-13T02:23:56 CST" duration-ms="2760" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInvalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestsCases.SearchTest@2cb4893b]" started-at="2023-11-13T02:23:56 CST" name="tearDown" finished-at="2023-11-13T02:23:56 CST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:TestsCases.SearchTest@2cb4893b]" started-at="2023-11-13T02:23:56 CST" name="launchURL" finished-at="2023-11-13T02:24:01 CST" duration-ms="4044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifySearchWithNovalidProduct()[pri:3, instance:TestsCases.SearchTest@2cb4893b]" started-at="2023-11-13T02:24:01 CST" name="verifySearchWithNovalidProduct" finished-at="2023-11-13T02:24:02 CST" duration-ms="1402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithNovalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestsCases.SearchTest@2cb4893b]" started-at="2023-11-13T02:24:02 CST" name="tearDown" finished-at="2023-11-13T02:24:02 CST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestsCases.SearchTest -->
+      <class name="TestsCases.CheckoutTest">
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:TestsCases.CheckoutTest@7a35b0f5]" started-at="2023-11-13T02:23:31 CST" name="launchURL" finished-at="2023-11-13T02:23:35 CST" duration-ms="3895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="checkoutTest()[pri:1, instance:TestsCases.CheckoutTest@7a35b0f5]" started-at="2023-11-13T02:23:35 CST" name="checkoutTest" finished-at="2023-11-13T02:23:37 CST" duration-ms="1833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestsCases.CheckoutTest@7a35b0f5]" started-at="2023-11-13T02:23:37 CST" name="tearDown" finished-at="2023-11-13T02:23:37 CST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestsCases.CheckoutTest -->
+      <class name="TestsCases.RegisterTest">
+        <test-method is-config="true" signature="launchURL()[pri:0, instance:TestsCases.RegisterTest@5e2c3d18]" started-at="2023-11-13T02:23:37 CST" name="launchURL" finished-at="2023-11-13T02:23:40 CST" duration-ms="3570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method signature="verifyRegisterWithAllDetail()[pri:1, instance:TestsCases.RegisterTest@5e2c3d18]" started-at="2023-11-13T02:23:40 CST" name="verifyRegisterWithAllDetail" finished-at="2023-11-13T02:23:43 CST" duration-ms="2075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithAllDetail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestsCases.RegisterTest@5e2c3d18]" started-at="2023-11-13T02:23:43 CST" name="tearDown" finished-at="2023-11-13T02:23:43 CST" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestsCases.RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
